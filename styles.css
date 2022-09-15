@@ -1247,7 +1247,7 @@ li {
 
   }
   @media only screen 
-  and (max-device-width: 915px)
+  and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (max-height: 414px)
   and (orientation: landscape) {
@@ -1358,6 +1358,126 @@ li {
     }
     .contact-screen{
       width: 896px;
+    }
+    .css-icon{
+      margin-left: 482px;
+    }
+    .python-icon{
+      margin-left: 282px;
+    }
+  }
+  @media only screen 
+  and (max-device-width: 915px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (max-height: 414px)
+  and (orientation: landscape) {
+
+    .background-part{
+      width: 915px;
+      height: 1067px;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 7fr 1fr;
+    }
+    .home-title{
+      font-size: 5.5rem;
+      margin-bottom: 144px;
+      text-align: center;
+      justify-self: center;
+    }
+    .home-desc{
+      margin-top: 70px;
+      font-size: 2rem;
+}
+    nav a{
+      padding: 10px 44px;
+    }
+    .first-row{
+      margin-right: -301px;
+      grid-column: 1/2;
+      grid-row: 0;
+      color: #c9c9c9;
+      font-size: 12px;
+      justify-self: center;
+      padding-right: 0;
+      padding-left: 0;
+    }
+    
+    header{
+      width: 915px;
+    }
+    .myself{
+      display: none;
+    }
+    .about-desc{
+      display: none;
+    }
+    .box-inside{
+      display:none
+    }
+    .ABO{
+      display: none;
+    }
+    .UT{
+      display: none;
+    }
+    .M{
+      display: none;
+    }
+    .E{
+      display: none;
+    }
+    .ABOUT-FULL{
+      display: inline-block;
+      margin-left: 50px
+    }
+    .ME-FULL{
+      display: inline-block;
+      margin-left: 50px
+    }
+    .container{
+      margin-right: 120px;
+    }
+    .about-page{
+      width: 915px;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+    .about-desc-mobile{
+      display: inline-block;
+      width: 360px;
+      text-align: center;
+      justify-self: center;
+      margin-top: 100px;
+    }
+    .typing-ani{
+      display: none;
+    }
+    .sub-for-work{
+      display: inline-block;
+      margin-left: 30px;
+    }
+    .rectangle-under0,.rectangle-under,.rectangle-under1,.rectangle-under2{
+      display: none;
+    }
+    .outline-box{
+      display: none;
+    }
+    .box-of-location{
+      display: none;
+    }
+    .left-box{
+      display: none;
+    }
+    .form{
+      top: 3303px;
+      left: 145px;
+      max-width: 370px;
+    }
+    .work-screen{
+      width: 915px;
+    }
+    .contact-screen{
+      width: 915px;
     }
     .css-icon{
       margin-left: 482px;
