@@ -17,7 +17,7 @@
                 <a href="#">HOME</a>
                 <a href="#About">ABOUT</a>
                 <a href="#Work">WORK</a>
-                <a href="#">CONTACT</a>    
+                <a href="#Contact">CONTACT</a>    
             <div id="indicator"></div>
 
         </nav>
@@ -94,10 +94,11 @@
 
   
   
-  <ion-icon name="logo-html5" class = "html-icon"></ion-icon>
+  <a class = "html-icon" href = "https://github.com/kevin18ramos/Portfolio"><ion-icon name="logo-html5" ></ion-icon></a>
   <img class = "rectangle-under1" src="Images/home-page.jpg">
 
-  <ion-icon name="logo-css3" class = "css-icon"></ion-icon>
+  <a class = "css-icon" href = "https://github.com/kevin18ramos/Portfolio"><ion-icon name="logo-css3" ></ion-icon></a>
+  
   <img class = "rectangle-under2" src="Images/home-page.jpg">
  
   <div class = "background-under">
@@ -118,7 +119,35 @@
 
 </div>
 <div class = "contact-screen" id = "Contact">
-  
+  <div class = "left-box">
+    <div class = "box-of-location">
+      <div class="Iam">
+
+        <p>I'm located in Water Valley, MS but you could be</p>
+        <b>
+          <div class="innerIam">
+            in Florida<br /> 
+            in California<br />
+            in New York<br />
+            in Texas<br />
+            anywhere.
+            </div>
+        </b>
+        
+        </div>
+    </div>
+    <div class = "outline-box"></div>
+  </div>
+  <div class = "message-place">
+    <form class = "form" action="https://formsubmit.co/your@email.com" method="POST" >
+      <div class="pageTitle title">Send me a message! </div>
+      <div class="secondaryTitle title">Please fill this form to contact me.</div>
+      <input type="text" class="name formEntry" placeholder="Name" />
+      <input type="text" class="email formEntry" placeholder="Email"/>
+      <textarea class="message formEntry" placeholder="Message"></textarea>
+      <button class="submit formEntry" onclick="thanks()">Submit</button>
+    </form>
+  </div>  
 
 
 </div>
