@@ -1133,7 +1133,7 @@ li {
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
-  and (max-height: 896px)
+  and (max-height: 915px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .background-part{
@@ -1196,9 +1196,11 @@ li {
     }
     .ABOUT-FULL{
       display: inline-block;
+      margin-left: 30px
     }
     .ME-FULL{
       display: inline-block;
+      margin-left: 30px
     }
     .about-page{
       width:54%;
@@ -1245,7 +1247,7 @@ li {
 
   }
   @media only screen 
-  and (max-device-width: 896px)
+  and (max-device-width: 915px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (max-height: 414px)
   and (orientation: landscape) {
@@ -1306,9 +1308,11 @@ li {
     }
     .ABOUT-FULL{
       display: inline-block;
+      margin-left: 50px
     }
     .ME-FULL{
       display: inline-block;
+      margin-left: 50px
     }
     .container{
       margin-right: 120px;
@@ -1357,5 +1361,8 @@ li {
     }
     .css-icon{
       margin-left: 482px;
+    }
+    .python-icon{
+      margin-left: 282px;
     }
   }
