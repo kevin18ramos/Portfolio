@@ -1129,5 +1129,233 @@ li {
     .contact-screen{
       width: 667px;
     }
-
 }
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (max-height: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .background-part{
+      width: 414px;
+      height: 1067px;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 7fr 1fr;
+    }
+    .home-title{
+      font-size: 5.5rem;
+      margin-bottom: 144px;
+      text-align: center;
+      justify-self: center;
+    }
+    .home-desc{
+      margin-top: 70px;
+      font-size: 2rem;
+}
+
+    nav a{
+      display: none
+    }
+    .first-row{
+      display: none;
+      margin-right: -301px;
+      grid-column: 1/2;
+      grid-row: 0;
+      color: #c9c9c9;
+      font-size: 12px;
+      justify-self: center;
+      padding-right: 0;
+      padding-left: 0;
+    }
+    #indicator{
+      display: none;
+    }
+    header{
+      width: 414px;
+    }
+    .myself{
+      display: none;
+    }
+    .about-desc{
+      display: none;
+    }
+    .box-inside{
+      display:none
+    }
+    .ABO{
+      display: none;
+    }
+    .UT{
+      display: none;
+    }
+    .M{
+      display: none;
+    }
+    .E{
+      display: none;
+    }
+    .ABOUT-FULL{
+      display: inline-block;
+    }
+    .ME-FULL{
+      display: inline-block;
+    }
+    .about-page{
+      width:54%;
+      width: 414px;
+    }
+    .about-desc-mobile{
+      display: inline-block;
+      width: 380px;
+      text-align: center;
+      justify-self: center;
+      margin-top: 100px;
+    }
+    .typing-ani{
+      display: none;
+    }
+    .sub-for-work{
+      display: inline-block;
+      margin-left: 30px;
+    }
+    .rectangle-under0,.rectangle-under,.rectangle-under1,.rectangle-under2{
+      display: none;
+    }
+    .outline-box{
+      display: none;
+    }
+    .box-of-location{
+      display: none;
+    }
+    .left-box{
+      display: none;
+    }
+    .form{
+      top: 3303px;
+      left: 24px;
+      max-width: 370px;
+    }
+    .work-screen{
+      width: 414px;
+    }
+    .contact-screen{
+      width: 414px;
+    }
+
+
+  }
+  @media only screen 
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (max-height: 414px)
+  and (orientation: landscape) {
+
+    .background-part{
+      width: 896px;
+      height: 1067px;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 7fr 1fr;
+    }
+    .home-title{
+      font-size: 5.5rem;
+      margin-bottom: 144px;
+      text-align: center;
+      justify-self: center;
+    }
+    .home-desc{
+      margin-top: 70px;
+      font-size: 2rem;
+}
+    nav a{
+      padding: 10px 44px;
+    }
+    .first-row{
+      margin-right: -301px;
+      grid-column: 1/2;
+      grid-row: 0;
+      color: #c9c9c9;
+      font-size: 12px;
+      justify-self: center;
+      padding-right: 0;
+      padding-left: 0;
+    }
+    
+    header{
+      width: 896px;
+    }
+    .myself{
+      display: none;
+    }
+    .about-desc{
+      display: none;
+    }
+    .box-inside{
+      display:none
+    }
+    .ABO{
+      display: none;
+    }
+    .UT{
+      display: none;
+    }
+    .M{
+      display: none;
+    }
+    .E{
+      display: none;
+    }
+    .ABOUT-FULL{
+      display: inline-block;
+    }
+    .ME-FULL{
+      display: inline-block;
+    }
+    .container{
+      margin-right: 120px;
+    }
+    .about-page{
+      width: 896px;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+    .about-desc-mobile{
+      display: inline-block;
+      width: 360px;
+      text-align: center;
+      justify-self: center;
+      margin-top: 100px;
+    }
+    .typing-ani{
+      display: none;
+    }
+    .sub-for-work{
+      display: inline-block;
+      margin-left: 30px;
+    }
+    .rectangle-under0,.rectangle-under,.rectangle-under1,.rectangle-under2{
+      display: none;
+    }
+    .outline-box{
+      display: none;
+    }
+    .box-of-location{
+      display: none;
+    }
+    .left-box{
+      display: none;
+    }
+    .form{
+      top: 3303px;
+      left: 145px;
+      max-width: 370px;
+    }
+    .work-screen{
+      width: 896px;
+    }
+    .contact-screen{
+      width: 896px;
+    }
+    .css-icon{
+      margin-left: 482px;
+    }
+  }
