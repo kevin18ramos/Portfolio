@@ -281,6 +281,30 @@ li {
   font-size: 80px;
   font-weight: 400px;
 }
+.ABOUT-FULL{
+  color: white;
+  margin:0;
+  padding:0;
+  justify-self: start;
+  align-self: end;
+  grid-row: 1/2;
+  font-family: sans-serif;
+  font-size: 80px;
+  font-weight: 400px;
+  display: none;
+}
+.ME-FULL{
+  color: white;
+  margin:0;
+  padding:0;
+  justify-self: start;
+  align-self: end;
+  grid-row: 2/3;
+  font-family: sans-serif;
+  font-size: 80px;
+  font-weight: 400px;
+  display: none;
+}
 .E{
   color: white;
   margin:0;
@@ -304,6 +328,19 @@ li {
   padding-right:10px;
   line-height: 1.6;
 }
+
+.about-desc-mobile{
+  grid-row: 3/4;
+  display: none;
+  margin:0;
+  padding:0;
+  padding-left:10px;
+  padding-right:10px;
+  line-height: 1.6;
+  color: white;
+  font-family: sans-serif;
+}
+
 .box-inside{
   margin:0;
   padding:0;
@@ -361,6 +398,21 @@ li {
 #Work{
   list-style: none;
 }
+.sub-for-work{
+  padding: 0;
+  margin: 0;
+  color:#0CBABA;
+  font-size: 90px;
+  font-family: sans-serif;
+  align-self: end;
+  justify-self: center;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  text-transform: uppercase;
+  z-index: 1;
+  display: none;
+}
+
 .typing-ani{
   padding: 0;
   margin: 0;
@@ -492,6 +544,7 @@ li {
   align-self: start;
   height: 600px;
   width: 700px;
+  border-radius: 10px;
 }
 .rectangle-under0{
   z-index: 1;
@@ -894,6 +947,59 @@ li {
     header{
       width: 380px;
     }
+    .myself{
+      display: none;
+    }
+    .about-desc{
+      display: none;
+    }
+    .box-inside{
+      display:none
+    }
+    .ABO{
+      display: none;
+    }
+    .UT{
+      display: none;
+    }
+    .M{
+      display: none;
+    }
+    .E{
+      display: none;
+    }
+    .ABOUT-FULL{
+      display: inline-block;
+    }
+    .ME-FULL{
+      display: inline-block;
+    }
+    .about-page{
+      width:54%;
+      width: 380px;
+    }
+    .about-desc-mobile{
+      display: inline-block;
+      width: 360px;
+      text-align: center;
+      justify-self: center;
+      margin-top: 100px;
+    }
+    .typing-ani{
+      display: none;
+    }
+    .sub-for-work{
+      display: inline-block;
+      margin-left: 30px;
+    }
+    .rectangle-under0,.rectangle-under,.rectangle-under1,.rectangle-under2{
+      display: none;
+      
+    }
+
+
+
+
     }
 
 
