@@ -13,6 +13,8 @@ body{
   margin:0 auto;
   padding-top: 50px;
   grid-column: 2/3;
+  
+
 }
 header{
   background: #141414;
@@ -23,6 +25,7 @@ header{
   position: sticky;
   top: 0;
   z-index: 5;
+
 }
 .navigation {
   
@@ -166,10 +169,11 @@ li {
   grid-column: 1/2;
   grid-row: 1/2;
   color: #c9c9c9;
-  font-size: 26px;
+  font-size: 20px;
   justify-self: center;
   padding-right: 40%;
   padding-left: 30%;
+  align-self: center;
 }
 
 
