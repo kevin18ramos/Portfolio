@@ -1256,6 +1256,10 @@ li {
     .contact-screen{
       width: 414px;
     }
+    .css-icon{
+      margin-left: -40px;
+      grid-column: 2/3;
+    }
 
 
   }
@@ -2293,6 +2297,10 @@ li {
     }
     .contact-screen{
       width: 380px;
+    }
+    .css-icon{
+      margin-left: -70px;
+      grid-column: 2/3;
     }
 
 
