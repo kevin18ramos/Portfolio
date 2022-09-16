@@ -912,6 +912,11 @@ li {
     80% { top: -200px; }
 }
 
+
+.form-me{
+  text-shadow: .5px .5px white;
+}
+
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
