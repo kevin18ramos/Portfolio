@@ -2188,7 +2188,6 @@ li {
 
 
 @media only screen 
-  and (min-device-width: 260px) 
   and (max-device-width: 280px)
   and (max-height: 653px)
   and (-webkit-min-device-pixel-ratio: 2)
@@ -2307,10 +2306,8 @@ li {
 
     }
 
-
 /* Landscape */
 @media only screen 
-  and (min-device-width: 320px) 
   and (max-device-width: 700px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (max-height: 480px)
@@ -2418,7 +2415,7 @@ li {
     }
   }
     /* Mac Pro Air 15i*/
-    @media screen and (min-width: 1440px) and (max-width: 1440px) and  (max-height: 900px) and (min-height: 900px)
+    @media screen and (max-width: 1440px) and  (max-height: 900px)
     and (-webkit-min-device-pixel-ratio: 2) {
 
       .contact-screen{
@@ -2443,7 +2440,7 @@ li {
   
 }
 /* Mac Pro Air  13i*/
-@media screen and (max-width: 1280px) and (min-width: 1280px) and (max-height: 800px) and (min-height: 800px)
+@media screen and (max-width: 1280px) and (max-height: 800px)
 and (-webkit-min-device-pixel-ratio: 2) {
 
   .contact-screen{
