@@ -8,6 +8,7 @@ body{
   margin:0;
   background: white;
   height: 100%;
+  
 }
 .container{
   margin:0 auto;
@@ -3019,4 +3020,15 @@ and (orientation: portrait) {
         left: 13px;
         width: 989px;
       }
+    }
+
+
+    @media only screen
+    and (min-device-width: 1441px) 
+    and (min-height: 600px)
+    and (-webkit-min-device-pixel-ratio: 2){
+  body{
+    zoom: 75%;
+  }
+
     }
