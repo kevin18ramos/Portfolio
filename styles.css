@@ -2964,3 +2964,59 @@ and (orientation: portrait) {
     }
     
     }
+    @media only screen
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1024px)
+    and (min-height: 600px)
+    and (max-height: 600px)
+    and (-webkit-min-device-pixel-ratio: 2){
+      .background-part{
+        width: 1024px;
+      }
+      header{
+        width: 1024px;
+      }
+      .about-page{
+        width: 907px;
+      }
+      
+      .form{
+        top: 4454px;
+        left: 164px;
+        width: 1024px;
+      }
+      .work-screen{
+        width: 1024px;
+      }
+      .contact-screen{
+        width: 1024px;
+      }
+      .container{
+        width: 1024px;
+        
+      }
+      nav a{
+        padding: 10px 95px;
+      }
+
+      .ABO{
+        font-size: 53px;
+      }
+      .M{
+        font-size: 53px;
+      }
+      .UT{
+        font-size: 53px;
+      }
+      .E{
+        font-size: 53px;
+      }
+      .left-box{
+        width: 1024px
+        ;
+      }
+      .outline-box{
+        left: 13px;
+        width: 989px;
+      }
+    }
